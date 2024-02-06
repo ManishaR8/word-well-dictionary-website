@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #4568DC ,#B06AB3);
+}
+
+.body-cont{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.title{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 1.7rem;
+    color: #fff;
+    text-align: center;
+}
+
+.main-cont{
+    background-color: white;
+    height: 54vmin;
+    width: 52vmin;
+    display: flex;
+    border-radius: 0.3rem;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.search-bar{
+    height: 9vmin;
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.1rem solid #a028dc;
+   
+}
+
+input{
+    font-family: 'Lato', 'Helvetica';
+    height: 2.5vmin;
+    width: 37vmin;
+    font-size: 1.4rem;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 0.14rem solid #bf70c2;
+    color: #082279;
+}
+
+button{
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to left, #4568DC ,#B06AB3);
+    font-size: 0.89rem;
+    cursor: pointer;
+}
+
+.search-name{
+    font-family: 'Kurale', serif, cursive;
+    height: 8vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 24px 10px 14px;
+    font-size: 1.1rem;
+    
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.bordered{
+    border-top: 0.1rem solid #a028dc;
+}
+
+
+.mic-btn{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.definition{
+    font-size: 2rem;
+    height: 30vmin;
+    width: 50vmin;
+    padding: 9px 8px 10px 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#definition-1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+#definition-2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.search-ex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 14vmin;
+    padding: 0 8px 9px 13px;
+}
+
+
+.search-ex #example{
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 870px){
+
+    .main-cont{
+        background-color: #fff;
+        height: 56vh;
+        width: 55vw;
+    }
+
+    .definition{
+        height: 30vh;
+        width: 52vw;
+        padding: 0px 5px 9px 10px ;
+        
+    }
+
+}
+
+@media screen and (max-width: 835px){
+    
+    .main-cont{
+        height: 57vh;
+        width: 64vw;
+        background-color: #fff;
+    }
+
+    input{
+        height: 2.5vmin;
+        width: 40vmin;
+    }
+
+    .definition{
+        height: 33vh;
+        width: 60vw;
+        padding: 0px 5px 5px 10px ;
+        
+    }
+
+    .search-name{
+        height: 12vmin;
+        padding:2px 22px 12px 14px;
+    }
+
+    .search-bar{
+        height: 13vmin;
+    }
+}
+
+@media screen and (max-width: 545px){
+
+    .main-cont{
+        height: 57vh;
+        width: 82vw;
+        background-color: #fff;
+    }
+
+    button{
+        padding: 0.57rem;
+    }
+
+    input{
+        height: 0.5vmin;
+        width: 51vmin;
+        padding: 1.1rem;
+    }
+
+
+    .definition{
+        height: 37vh;
+        width: 78vw;
+    }
+
+    #definition-1{
+        font-size: 0.8rem;
+    }
+
+    #definition-2{
+        font-size: 0.8rem;
+    }
+
+    .search-name {
+        height: 14vmin;
+        padding: 2px 22px 7px 14px;
+    }
+
+}
+
+@media screen and (max-width: 417px){
+
+    .main-cont{
+        height: 66vh;
+        width: 94vw;
+        background-color: #fff;
+    }
+
+    input{
+        height: 1vmin;
+        width: 55vmin;
+    }
+
+    button{
+        padding: 0.47rem;
+        font-weight:200;
+    }
+
+
+    .definition {
+        height: 39vh;
+        width: 91vw;
+        padding: 0px 5px 0px 10px;
+        justify-content: space-evenly;
+    }
+
+    #definition-1{
+        font-size: 0.8rem;
+    }
+
+    #definition-2{
+        font-size: 0.8rem;
+    }
+
+    .search-name{
+        height: 18vmin;
+        padding: 2px 22px 8px 14px;
+    }
+
+    .search-bar{
+        height: 17vmin;
+        padding: 0 0 3px 0 ;
+    }
+
+}

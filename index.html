@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="#" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam&family=Kurale&family=Lato&family=Playfair+Display:wght@500&family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <div class="body-cont">
+
+        <div class="title">
+            <h1> The Word Well</h1>
+        </div>
+
+        <div class="main-cont">
+
+            <div class="search-bar">
+                <input type="text" placeholder="search ">
+                <button type="button">Search</button>
+            </div>
+                
+            <div class="search-name set-search">
+                <div class="name-pro">
+                    <h1 id="search-name" style="color: #093eed;"></h1>
+                    <h3 id="search-pro"></h3>
+                </div>
+                <div class="mic-btn">
+                    <i class="fa fa-volume-up" style="font-size:30px"></i>
+                </div>
+                
+            </div>
+
+            <div class="definition">
+                <h2 id="heading" style="font-family: 'Kurale', serif, cursive; font-size:1.67rem ;        
+                color: #093eed">Definition - </h2>
+                <p id="definition-1"></p>
+                <p id="definition-2"></p>
+            </div>
+
+
+        </div>
+
+    </div>    
+    <script src="app.js"></script>
+</body>
+</html>
