@@ -206,11 +206,11 @@ button{
     }
 
     #definition-1{
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 
     #definition-2{
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 
     .search-name {
@@ -235,7 +235,7 @@ button{
 
     button{
         padding: 0.47rem;
-        font-weight:200;
+        font-weight:bold;
     }
 
 
